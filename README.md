@@ -1,11 +1,10 @@
-# solana_rbpf
+# uwcl_rbpf
 
 ![](misc/rbpf_256.png)
 
 Rust (user-space) virtual machine for eBPF
 
-[![Build Status](https://api.travis-ci.com/solana-labs/rbpf.svg?branch=main)](https://app.travis-ci.com/github/solana-labs/rbpf)
-[![Crates.io](https://img.shields.io/crates/v/solana_rbpf.svg)](https://crates.io/crates/solana_rbpf)
+[![Crates.io](https://img.shields.io/badge/uwcl__rbpf-0.0.1-orange)](https://crates.io/crates/uwcl_rbpf)
 
 ## Description
 
@@ -26,13 +25,13 @@ although the JIT-compiler does not work with Windows at this time.
 
 ## Link to the crate
 
-This crate is available from [crates.io](https://crates.io/crates/solana_rbpf),
+This crate is available from [crates.io](https://crates.io/crates/uwcl_rbpf),
 so it should work out of the box by adding it as a dependency in your
 `Cargo.toml` file:
 
 ```toml
 [dependencies]
-solana_rbpf = "0.0.1"
+uwcl_rbpf = "0.0.1"
 ```
 
 You can also use the development version from this GitHub repository. This
@@ -40,7 +39,7 @@ should be as simple as putting this inside your `Cargo.toml`:
 
 ```toml
 [dependencies]
-solana_rbpf = { git = "https://github.com/solana-labs/rbpf", branch = "main" }
+uwcl_rbpf = { git = "https://github.com/trancesnail/uwcl_rbpf", branch = "master" }
 ```
 
 Of course, if you prefer, you can clone it locally, possibly hack the crate,
@@ -48,21 +47,21 @@ and then indicate the path of your local version in `Cargo.toml`:
 
 ```toml
 [dependencies]
-solana_rbpf = { path = "path/to/solana_rbpf" }
+uwcl_rbpf = { path = "path/to/uwcl_rbpf" }
 ```
 
 Then indicate in your source code that you want to use the crate:
 
 ```rust,ignore
-extern crate solana_rbpf;
+extern crate uwcl_rbpf;
 ```
 
 ## API
 
 The API is pretty well documented inside the source code. You should also be
 able to access [an online version of the documentation from
-here](https://docs.rs/solana_rbpf/), automatically generated from the
-[crates.io](https://crates.io/crates/solana_rbpf)
+here](https://docs.rs/uwcl_rbpf/), automatically generated from the
+[crates.io](https://crates.io/crates/uwcl_rbpf)
 version (may not be up-to-date with master branch).
 [Examples](examples), [unit tests](tests) and [performance benchmarks](benches)
 should also prove helpful.
