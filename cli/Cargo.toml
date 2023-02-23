@@ -1,0 +1,14 @@
+[package]
+name = "uwcl_rbpf_cli"
+version = "0.0.1"
+description = "CLI to test and analyze eBPF programs"
+authors = ["uwcl_rbpf Maintainers"]
+repository = "https://github.com/trancesnail/uwcl_rbpf"
+homepage = "https://github.com/trancesnail/uwcl_rbpf"
+keywords = ["BPF", "eBPF", "interpreter", "JIT"]
+edition = "2018"
+
+[dependencies]
+uwcl_rbpf = { path = "../" }
+uwcl_test_utils = { path = "../test_utils/" }
+clap = "3.0.0-beta.2"
