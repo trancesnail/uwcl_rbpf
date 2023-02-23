@@ -1,10 +1,10 @@
 [package]
 name = "uwcl_rbpf"
-version = "0.0.1"
+version = "0.0.2"
 description = "Virtual machine and JIT compiler for eBPF programs"
-authors = ["uwcl_rbpf Maintainers"]
-repository = "https://github.com/trancesnail/uwcl_rbpf"
-homepage = "https://github.com/trancesnail/uwcl_rbpf"
+authors = ["UWCL RBPF Maintainers"]
+repository = "https://github.com/trancesnail"
+homepage = "https://github.com/trancesnail"
 keywords = ["BPF", "eBPF", "interpreter", "JIT", "filtering"]
 license = "Apache-2.0"
 edition = "2018"
