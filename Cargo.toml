@@ -2,7 +2,7 @@
 name = "uwcl_rbpf"
 version = "0.0.1"
 description = "Virtual machine and JIT compiler for eBPF programs"
-authors = ["uwcl_rbpf Maintainers <maintainers@put.foundation>"]
+authors = ["uwcl_rbpf Maintainers"]
 repository = "https://github.com/trancesnail/uwcl_rbpf"
 homepage = "https://github.com/trancesnail/uwcl_rbpf"
 keywords = ["BPF", "eBPF", "interpreter", "JIT", "filtering"]
